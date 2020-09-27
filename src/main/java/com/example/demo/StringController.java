@@ -5,12 +5,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RevertController {
+public class StringController {
     @Autowired
-    RevertService revertService;
+    StringService stringService;
 
     @RequestMapping("/revert/{str}")
     public String RevertString(@PathVariable("str") String str){
-        return revertService.RevertString(str);
+        return stringService.RevertString(str);
+    }
+
+    @RequestMapping("/CountWords/{str}")
+    public int CountWords(@PathVariable("str") String str) {
+        return stringService.CountWords(str);
     }
 }
