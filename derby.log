@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Sep 28 12:01:44 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0174-d429-345e-000001d96050 
+on database directory memory:C:\Users\volka\IdeaProjects\OpdrachtenMinorJava\a219da7d-aa97-407b-85ad-9fbc10144071 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2626b418 
+Loaded from file:/C:/Users/volka/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=14.0.2+12-46
+user.dir=C:\Users\volka\IdeaProjects\OpdrachtenMinorJava
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
