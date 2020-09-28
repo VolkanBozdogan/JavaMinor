@@ -9,8 +9,14 @@ public class StringService {
     @Autowired
     private StringRepository stringRepository;
 
+
     public String RevertString(String str) {
         return new StringBuilder(str).reverse().toString();
+    }
+
+    @Profile("prod")
+    public String CapsString(String str) {
+        return str.toUpperCase();
     }
 
     public int CountWords(String inputText){
